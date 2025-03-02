@@ -1,0 +1,21 @@
+.btn-cls1{
+    height: 50px;
+    width: fit-content;
+    padding: 2%;
+    border-radius: 25px;
+    border: 3px solid #000000;
+    box-shadow: 3px 3px 0px 0px #000000;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-cls1:active{
+    box-shadow: 1px 1px 0px 0px #000000;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}

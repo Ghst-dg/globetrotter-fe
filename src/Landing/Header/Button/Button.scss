@@ -1,0 +1,19 @@
+.main-button {
+    height: 100%;
+    width: 12.5%;
+    background-color: #000000;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.main-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-left: 5px solid #000000;
+}
+
+.main-button:active {
+    
+}

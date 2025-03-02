@@ -1,0 +1,32 @@
+.input-cont{
+    width: 80%;
+    height: 36px;
+    border-radius: 36px;
+    border: 5px solid #000000;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-bottom: 50px;
+}
+
+.input{
+    outline: none;
+    border: none;
+    width: 80%;
+    text-align: center;
+    height: 100%;
+}
+
+.chck-btn{
+    outline: none;
+    border: none;
+    width: 19%;
+    height: 100%;
+    background-color: #00FF00;
+}
+
+.chck-btn:active{
+    background-color: #00AA00;
+}
