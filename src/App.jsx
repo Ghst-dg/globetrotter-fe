@@ -1,6 +1,6 @@
 import { createContext, useRef } from "react";
 import Markey from "./Components/Marquee/Markey";
-import Game from "./Game/game";
+import Game from "./Game/Game";
 import Landing from "./Landing/Landing";
 
 export const ScrollContext = createContext();
