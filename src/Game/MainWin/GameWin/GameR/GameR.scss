@@ -7,6 +7,11 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    position: relative;
 }
 
 .Result{
@@ -14,4 +19,6 @@
     width: 100%;
     text-align: center;
     font-size: 48px;
+    display: block;
+    z-index: 10;
 }

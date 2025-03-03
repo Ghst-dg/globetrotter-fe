@@ -1,0 +1,21 @@
+.Ring{
+    width: 20%;
+    height: 20%;
+    border-radius: 100%;
+    box-sizing: border-box;
+    border: 50px solid rgba(255, 255, 255, 0.4);
+    position: absolute;
+    z-index: 2;
+    animation: borderAnimation 1s infinite ease-in-out;
+}
+
+@keyframes borderAnimation {
+    0%, 100% {
+        border-width: 20px;
+        border-style: dotted;
+    }
+    50% {
+        border-width: 50px;
+        border-style:dashed;
+    }
+}

@@ -12,6 +12,8 @@ body{
 
 button{
     cursor: pointer;
+    display: block;
+    z-index: 5;
 }
 
 #root{

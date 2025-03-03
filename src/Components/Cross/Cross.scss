@@ -1,0 +1,37 @@
+.cross {
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    z-index: 2;
+    animation: rotate 5s linear infinite;
+}
+
+.horizontal, .vertical {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.horizontal {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    transform: translateY(-50%);
+}
+
+.vertical {
+    top: 0;
+    left: 50%;
+    width: 20%;
+    height: 100%;
+    transform: translateX(-50%);
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

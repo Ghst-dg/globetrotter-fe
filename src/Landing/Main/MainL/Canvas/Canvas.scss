@@ -1,4 +1,18 @@
 .Main-L-canvas {
     height: 85%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.cont-three{
+    height: 80%;
+    width: 80%;
+    box-sizing: border-box;
+    border: 5px solid #000000;
+    box-shadow: 5px 5px 0px 0px #000000;
+    border-radius: 30% 50% 10% 70%;
+    overflow: hidden;
 }

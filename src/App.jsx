@@ -16,7 +16,7 @@ const App = () => {
     <ScrollContext.Provider value={{ scrollToElement, targetRef }}>
       <Landing />
       <Game />
-      <Markey
+      {/* <Markey
         text="Globetrotter"
         mHeight="20%"
         mBG="#ffffff"
@@ -27,7 +27,7 @@ const App = () => {
         dir="left"
       >
         <div className="markey-bullet"></div>
-      </Markey>
+      </Markey> */}
     </ScrollContext.Provider>
   );
 };

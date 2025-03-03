@@ -1,7 +1,14 @@
 .fact{
     width: 80%;
     height: fit-content;
+    border: 5px solid #000000;
+    padding: 2%;
+    border-radius: 200px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #ffffff;
     span{
-        font-size: 24px;
+        font-size: 36px;
+        text-align: center;
     }
 }

@@ -24,7 +24,7 @@ const Input = ({ data, setScore, setResult, score, setShowConfetti }) => {
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
             />
-            <button className="chck-btn" onClick={chckAns}></button>
+            <button className="chck-btn" onClick={chckAns}>Check</button>
         </div>
     );
 };

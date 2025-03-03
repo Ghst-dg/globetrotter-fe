@@ -1,7 +1,9 @@
-import { useEffect } from 'react';
 import './Question.scss'
+import Ring from '../../../../../Components/Ring/Ring'
 
-const Question = ({data}) => {
+const Question = ({data, loading}) => {
+
+    if(loading) return <Ring/>
 
     return (
         <div className="questCont">
